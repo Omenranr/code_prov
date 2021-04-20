@@ -1,0 +1,131 @@
+{
+    "name": "Sales Forecast",
+    "description": "1er use case des ventes previsionnelle avec Watson ML",
+    "scenario": {
+        "config": {
+            "$parameters": {
+                "tableId": "parameters"
+            },
+            "$scenario": {},
+			"Sales": {
+            },
+            "Outcome": {
+            }
+        }
+    },
+    "pa": {
+        "description": "PA Local on ibmdemos",
+        "url": "http://localhost:50234",
+        "username": "pm",
+        "password": "IBMDem0s",
+        "camnamespace": "Harmony LDAP",
+        "mapping": {
+            "versionDimensionName": "Version",
+            "allowInit": true,
+            "input": {
+                "version": "Baseline",
+                "dimensions": {},
+                "cubes": {
+                    "_sdFirmSales": {
+                        "name": "FirmSales",
+                        "readVersion": false
+                    }
+                },
+                "preprocess_bak": [
+                    {
+                        "url": "http://localhost:50996/api/v1/Processes('Hello_World2')/tm1.ExecuteWithReturn",
+                        "body": {
+                            "Parameters": [
+                                {
+                                    "Name": "pVersion",
+                                    "Value": "$version$"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "output": {
+                "version": "Forecast",
+                "cubes": {
+                    "_sdsales_forecast_ML_Test": {
+                        "name": "executed_sales",
+                        "readVersion": true
+                    }
+                },
+                "postprocess_bak": [
+                    {
+                        "url": "http://localhost:50996/api/v1/Processes('Hello_World')/tm1.ExecuteWithReturn",
+                        "body": {
+                            "Parameters": [
+                                {
+                                    "Name": "pVersion",
+                                    "Value": "$version$"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+"ml": {
+        "type": "wml",
+        "version": "v4",
+        "url": "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/dac3515e-bcc4-42a9-89b4-8cdba4ff1161/predictions?version=2020-11-13",
+        "url2": "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/57f16e5c-aab9-4172-8423-6646963545ce/predictions?version=2020-11-27",
+        "apikey": "gknYjMe0H-h1DzbxNgVqPWvx2U1YUKJukAJxZHriUuug",
+        "space_id": "7c910771-1a9f-4fca-8b32-a4a4795b1adc",
+        "input": "Sales",
+        "output": "Outcome",
+		"postprocess" : "postml.js",
+        "includeAllOutput" : true,
+        "action": {
+            "text": "PREDICT",
+            "alertErrors": true
+        }
+    },
+    "ui": {
+        "title": "SalesForecasting",
+        "widgets": {
+            "scenario_0": {
+                "type": "scenario",
+                "id": "scenario_0",
+                "title": "Scenario Explorer",
+                "x": 0,
+                "y": 0,
+                "width": 2,
+                "height": 2
+            },
+            "score": {
+                "type": "score",
+                "id": "score",
+                "title": "Machine Learning",
+                "x": 0,
+                "y": 2,
+                "width": 2,
+                "height": 2
+            },
+            "Inputs2": {
+                "type": "tables",
+                "id": "Sales",
+                "title": "Inputs",
+                "x": 2,
+                "y": 0,
+                "width": 7,
+                "height": 4,
+                "category": "input"
+            },
+            "Outputs3": {
+                "type": "tables",
+                "id": "Outcome",
+                "title": "Outputs",
+                "x": 9,
+                "y": 0,
+                "width": 3,
+                "height": 4,
+                "category": "output"
+            }
+        }
+    }
+}

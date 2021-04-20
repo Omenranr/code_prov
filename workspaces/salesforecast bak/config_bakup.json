@@ -1,0 +1,144 @@
+{
+    "name": "Sales Forecast",
+    "description": "1er use case des ventes previsionnelle avec Watson ML",
+    "scenario": {
+        "config": {
+            "$parameters": {
+                "tableId": "parameters"
+            },
+            "$scenario": {},
+            "PlantMonthCapacity": {},
+            "executed_sales": {},
+            "demandAllocationResults": {},
+            "productionResults": {},
+            "kpiResults": {
+                "id": "deviation"
+            },
+            "production": {},
+            "PlantProductCapacity": {},
+            "InitialInventory": {},
+            "PlantProductCost": {},
+            "Plants": {
+                "id": "Id"
+            },
+            "Products": {
+                "id": "Id"
+            },
+            "Markets": {
+                "id": "Id"
+            },
+            "Months": {
+                "id": "Id"
+            },
+            "markets_inventory": {},
+            "kpis": {
+                "id": "NAME"
+            },
+            "Demand": {},
+            "FirmSales": {},
+            "MarginalProfit": {},
+            "Period": {
+                "id": "Id"
+            },
+            "parameters": {
+                "id": "name"
+            }
+        }
+    },
+    "pa": {
+        "description": "PA Local on ibmdemos",
+        "url": "http://localhost:50234",
+        "username": "pm",
+        "password": "IBMDem0s",
+        "camnamespace": "Harmony LDAP",
+        "mapping": {
+            "versionDimensionName": "Version",
+            "allowInit": true,
+            "input": {
+                "version": "Baseline",
+                "dimensions": {},
+                "cubes": {
+                    "_sdFirmSales": {
+                        "name": "FirmSales",
+                        "readVersion": false
+                    }
+                },
+                "preprocess_bak": [
+                    {
+                        "url": "http://localhost:50996/api/v1/Processes('Hello_World2')/tm1.ExecuteWithReturn",
+                        "body": {
+                            "Parameters": [
+                                {
+                                    "Name": "pVersion",
+                                    "Value": "$version$"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "output": {
+                "version": "Forecast",
+                "cubes": {
+                    "_sdsales_forecast": {
+                        "name": "executed_sales",
+                        "readVersion": true
+                    }
+                },
+                "postprocess_bak": [
+                    {
+                        "url": "http://localhost:50996/api/v1/Processes('Hello_World')/tm1.ExecuteWithReturn",
+                        "body": {
+                            "Parameters": [
+                                {
+                                    "Name": "pVersion",
+                                    "Value": "$version$"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "ws": {
+        "type": "cloud",
+        "url": "https://dataplatform.cloud.ibm.com",
+        "apiurl": "https://api.dataplatform.cloud.ibm.com",
+        "apikey": "4GX05NVAMZI0mqR4zsbpvJojY81jS17LaAMQPaEddEkR",
+        "projectName": "PA3"
+    },
+    "do-old": {
+        "url": "https://api-oaas.docloud.ibmcloud.com/job_manager/rest/v1/",
+        "key": "api_7fe447c0-46eb-4f68-a7e5-196c95be0260",
+        "model": "model.py"
+    },
+    "do-alain": {
+        "type": "wml",
+        "apikey": "0lA-zIWkMzF3GHY9MxFVqDCswKBwOKaJue5D1vemxJFt",
+        "instance_id": "8a69e5fe-b112-4b92-adfd-0dbce326332b",
+        "deployment_id": "8e9b84fb-0389-4367-85f3-061ac384c132",
+        "url": "https://us-south.ml.cloud.ibm.com",
+        "model": "model.py",
+        "action": {
+            "text": "PLAN"
+        }
+    },
+    "do": {
+        "type": "wml",
+        "apikey": "bImYZcZyRY46CPlKP3O0AWoZf8ynhCDMebCr6ubncNC9",
+        "instance_id": "650b20a6-2ce4-4f18-875a-a656545d0161",
+        "deployment_id_bad": "93abc71c-e370-4023-a304-b87041a5c409",
+        "deployment_id_old": "0ae69856-af4d-4c0c-a4f5-ccc304c7160c",
+        "deployment_id": "3989c428-f72c-43d4-9c74-f2b536da11a8",
+        "url": "https://us-south.ml.cloud.ibm.com",
+        "model": "model.py",
+        "action": {
+            "text": "PLAN"
+        }
+    },
+    "ui": {
+        "title": "Supply Demand",
+        "gridjs": "grid.js"
+    }
+}

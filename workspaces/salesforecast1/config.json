@@ -1,0 +1,113 @@
+{
+    "name": "Sales Forecast",
+    "description": "1er use case des ventes previsionnelle avec Watson ML",
+    "scenario": {
+        "config": {
+            "$parameters": {
+                "tableId": "parameters"
+            },
+            "$scenario": {},
+            "inputmlfile": {
+                "id": "m0"
+            },
+            "Outcome": {
+                "id": ""
+            },
+            "Sales_Get_PA": {
+            },
+            "Outcome_Push_PA": {
+            }
+        }
+    },
+    "pa": {
+        "description": "PA Local on ibmdemos",
+        "url": "http://localhost:50234",
+        "username": "pm",
+        "password": "IBMDem0s",
+        "camnamespace": "Harmony LDAP",
+        "mapping": {
+            "versionDimensionName": "Version",
+            "allowInit": true,
+            "input": {
+                "version": "Baseline",
+                "dimensions": {},
+                "cubes": {
+                    "_POC_Forecast_WML": {
+                        "name": "Sales_Get_PA",
+                        "readVersion": true
+                    }
+                }
+            },
+            "output": {
+                "version": "Forecast",
+                "cubes": {
+                    "_POC_Forecast_WML": {
+                        "name": "Outcome_Push_PA",
+                        "readVersion": true
+                    }
+                }
+            }
+        }
+    },
+    "ml": {
+        "type": "wml",
+        "version": "v4",
+        "url2": "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/b292d41f-ddb3-473e-9bd4-3365eb652450/predictions?version=2021-03-31",
+        "url": "https://us-south.ml.cloud.ibm.com/ml/v4/deployments/b292d41f-ddb3-473e-9bd4-3365eb652450/predictions?version=2021-03-31",
+        "apikey": "Pxwx1FZ_rzHL1smKmx9EUOD2tgOGrcKIRcUV6aAaI70K",
+        "space_id": "b329ef04-cb16-4687-bec2-28ff4fc759e6",
+        "input": "inputmlfile",
+        "output": "Outcome",
+        "preprocess": "preml.js",
+        "postprocess": "postml.js",
+        "allowInit": true,
+        "includeAllOutput": true,
+        "action": {
+            "text": "PREDICT",
+            "alertErrors": true
+        }
+    },
+    "ui": {
+        "title": "SalesForecasting",
+        "widgets": {
+            "scenario_0": {
+                "type": "scenario",
+                "id": "scenario_0",
+                "title": "Scenario Explorer",
+                "x": 0,
+                "y": 0,
+                "width": 2,
+                "height": 2
+            },
+            "score": {
+                "type": "score",
+                "id": "score",
+                "title": "Machine Learning",
+                "x": 0,
+                "y": 2,
+                "width": 2,
+                "height": 2
+            },
+            "Inputs2": {
+                "type": "tables",
+                "id": "Sales",
+                "title": "Inputs",
+                "x": 2,
+                "y": 0,
+                "width": 7,
+                "height": 4,
+                "category": "input"
+            },
+            "Outputs3": {
+                "type": "tables",
+                "id": "Outcome",
+                "title": "Outputs",
+                "x": 9,
+                "y": 0,
+                "width": 3,
+                "height": 4,
+                "category": "output"
+            }
+        }
+    }
+}

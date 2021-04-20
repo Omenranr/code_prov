@@ -1,0 +1,958 @@
+Markets,Period,Products,value
+US,Jan 2016,200S,398
+US,Feb 2016,200S,88
+US,Mar 2016,200S,81
+US,Jan 2016,300S,28
+US,Feb 2016,300S,28
+US,Mar 2016,300S,22
+US,Jan 2016,600S,6
+US,Feb 2016,600S,2
+US,Mar 2016,600S,5
+US,Jan 2016,626S,73
+US,Feb 2016,626S,79
+US,Mar 2016,626S,82
+US,Jan 2016,676S,47
+US,Feb 2016,676S,49
+US,Mar 2016,676S,56
+US,Jan 2016,676RS,101
+US,Feb 2016,676RS,106
+US,Mar 2016,676RS,116
+US,Jan 2016,900S,9
+US,Feb 2016,900S,14
+US,Mar 2016,900S,6
+US,Jan 2016,929S,107
+US,Feb 2016,929S,106
+US,Mar 2016,929S,107
+US,Jan 2016,996S,70
+US,Feb 2016,996S,40
+US,Mar 2016,996S,68
+US,Jan 2016,996RS,15
+US,Feb 2016,996RS,17
+US,Mar 2016,996RS,15
+US,Jan 2016,RoadStar,34
+US,Feb 2016,RoadStar,60
+US,Mar 2016,RoadStar,25
+US,Jan 2016,RoadLiner,16
+US,Feb 2016,RoadLiner,20
+US,Mar 2016,RoadLiner,17
+US,Jan 2016,Victory,75
+US,Feb 2016,Victory,10
+US,Mar 2016,Victory,77
+US,Jan 2016,Boulevard,84
+US,Feb 2016,Boulevard,92
+US,Mar 2016,Boulevard,93
+US,Jan 2016,KingTwin,14
+US,Feb 2016,KingTwin,4
+US,Mar 2016,KingTwin,1
+US,Jan 2016,MegaTwin,66
+US,Feb 2016,MegaTwin,71
+US,Mar 2016,MegaTwin,75
+US,Jan 2016,ST900,17
+US,Feb 2016,ST900,4
+US,Mar 2016,ST900,1
+US,Jan 2016,ST1200,58
+US,Feb 2016,ST1200,62
+US,Mar 2016,ST1200,64
+US,Jan 2016,ST1200R,76
+US,Feb 2016,ST1200R,73
+US,Mar 2016,ST1200R,79
+US,Jan 2016,Bandit 900,22
+US,Feb 2016,Bandit 900,5
+US,Mar 2016,Bandit 900,1
+US,Jan 2016,Bandit 1200,90
+US,Feb 2016,Bandit 1200,45
+US,Mar 2016,Bandit 1200,35
+US,Jan 2016,Bandit 1200S,59
+US,Feb 2016,Bandit 1200S,56
+US,Mar 2016,Bandit 1200S,59
+US,Jan 2016,Enduro 350,38
+US,Feb 2016,Enduro 350,6
+US,Mar 2016,Enduro 350,15
+US,Jan 2016,Enduro 450,23
+US,Feb 2016,Enduro 450,7
+US,Mar 2016,Enduro 450,1
+US,Jan 2016,Enduro 550,90
+US,Feb 2016,Enduro 550,92
+US,Mar 2016,Enduro 550,100
+US,Jan 2016,CRX500,24
+US,Feb 2016,CRX500,7
+US,Mar 2016,CRX500,1
+US,Jan 2016,CRS550,38
+US,Feb 2016,CRS550,93
+US,Mar 2016,CRS550,97
+US,Jan 2016,CRX600,26
+US,Feb 2016,CRX600,66
+US,Mar 2016,CRX600,30
+US,Jan 2016,CRX650,42
+US,Feb 2016,CRX650,42
+US,Mar 2016,CRX650,45
+Canada,Jan 2016,200S,37
+Canada,Feb 2016,200S,29
+Canada,Mar 2016,200S,97
+Canada,Jan 2016,300S,20
+Canada,Feb 2016,300S,23
+Canada,Mar 2016,300S,22
+Canada,Jan 2016,600S,74
+Canada,Feb 2016,600S,71
+Canada,Mar 2016,600S,78
+Canada,Jan 2016,626S,52
+Canada,Feb 2016,626S,52
+Canada,Mar 2016,626S,55
+Canada,Jan 2016,676S,20
+Canada,Feb 2016,676S,20
+Canada,Mar 2016,676S,25
+Canada,Jan 2016,676RS,16
+Canada,Feb 2016,676RS,16
+Canada,Mar 2016,676RS,16
+Canada,Jan 2016,900S,105
+Canada,Feb 2016,900S,97
+Canada,Mar 2016,900S,102
+Canada,Jan 2016,929S,42
+Canada,Feb 2016,929S,40
+Canada,Mar 2016,929S,45
+Canada,Jan 2016,996S,87
+Canada,Feb 2016,996S,66
+Canada,Mar 2016,996S,90
+Canada,Jan 2016,996RS,73
+Canada,Feb 2016,996RS,72
+Canada,Mar 2016,996RS,70
+Canada,Jan 2016,RoadStar,97
+Canada,Feb 2016,RoadStar,10
+Canada,Mar 2016,RoadStar,102
+Canada,Jan 2016,RoadLiner,83
+Canada,Feb 2016,RoadLiner,86
+Canada,Mar 2016,RoadLiner,79
+Canada,Jan 2016,Victory,34
+Canada,Feb 2016,Victory,72
+Canada,Mar 2016,Victory,21
+Canada,Jan 2016,Boulevard,50
+Canada,Feb 2016,Boulevard,54
+Canada,Mar 2016,Boulevard,53
+Canada,Jan 2016,KingTwin,25
+Canada,Feb 2016,KingTwin,10
+Canada,Mar 2016,KingTwin,1
+Canada,Jan 2016,MegaTwin,28
+Canada,Feb 2016,MegaTwin,35
+Canada,Mar 2016,MegaTwin,34
+Canada,Jan 2016,ST900,4
+Canada,Feb 2016,ST900,1
+Canada,Mar 2016,ST900,0
+Canada,Jan 2016,ST1200,13
+Canada,Feb 2016,ST1200,16
+Canada,Mar 2016,ST1200,7
+Canada,Jan 2016,ST1200R,67
+Canada,Feb 2016,ST1200R,75
+Canada,Mar 2016,ST1200R,77
+Canada,Jan 2016,Bandit 900,24
+Canada,Feb 2016,Bandit 900,6
+Canada,Mar 2016,Bandit 900,1
+Canada,Jan 2016,Bandit 1200,43
+Canada,Feb 2016,Bandit 1200,23
+Canada,Mar 2016,Bandit 1200,7
+Canada,Jan 2016,Bandit 1200S,64
+Canada,Feb 2016,Bandit 1200S,66
+Canada,Mar 2016,Bandit 1200S,64
+Canada,Jan 2016,Enduro 350,1
+Canada,Feb 2016,Enduro 350,0
+Canada,Mar 2016,Enduro 350,0
+Canada,Jan 2016,Enduro 450,11
+Canada,Feb 2016,Enduro 450,3
+Canada,Mar 2016,Enduro 450,1
+Canada,Jan 2016,Enduro 550,63
+Canada,Feb 2016,Enduro 550,68
+Canada,Mar 2016,Enduro 550,66
+Canada,Jan 2016,CRX500,10
+Canada,Feb 2016,CRX500,3
+Canada,Mar 2016,CRX500,0
+Canada,Jan 2016,CRS550,35
+Canada,Feb 2016,CRS550,70
+Canada,Mar 2016,CRS550,42
+Canada,Jan 2016,CRX600,4
+Canada,Feb 2016,CRX600,0
+Canada,Mar 2016,CRX600,0
+Canada,Jan 2016,CRX650,63
+Canada,Feb 2016,CRX650,65
+Canada,Mar 2016,CRX650,70
+Brazil,Jan 2016,200S,36
+Brazil,Feb 2016,200S,19
+Brazil,Mar 2016,200S,90
+Brazil,Jan 2016,300S,62
+Brazil,Feb 2016,300S,58
+Brazil,Mar 2016,300S,55
+Brazil,Jan 2016,600S,72
+Brazil,Feb 2016,600S,70
+Brazil,Mar 2016,600S,72
+Brazil,Jan 2016,626S,26
+Brazil,Feb 2016,626S,29
+Brazil,Mar 2016,626S,22
+Brazil,Jan 2016,676S,9
+Brazil,Feb 2016,676S,6
+Brazil,Mar 2016,676S,11
+Brazil,Jan 2016,676RS,58
+Brazil,Feb 2016,676RS,58
+Brazil,Mar 2016,676RS,59
+Brazil,Jan 2016,900S,37
+Brazil,Feb 2016,900S,40
+Brazil,Mar 2016,900S,43
+Brazil,Jan 2016,929S,15
+Brazil,Feb 2016,929S,10
+Brazil,Mar 2016,929S,8
+Brazil,Jan 2016,996S,4
+Brazil,Feb 2016,996S,8
+Brazil,Mar 2016,996S,0
+Brazil,Jan 2016,996RS,97
+Brazil,Feb 2016,996RS,98
+Brazil,Mar 2016,996RS,99
+Brazil,Jan 2016,RoadStar,32
+Brazil,Feb 2016,RoadStar,69
+Brazil,Mar 2016,RoadStar,24
+Brazil,Jan 2016,RoadLiner,105
+Brazil,Feb 2016,RoadLiner,104
+Brazil,Mar 2016,RoadLiner,103
+Brazil,Jan 2016,Victory,39
+Brazil,Feb 2016,Victory,7
+Brazil,Mar 2016,Victory,1
+Brazil,Jan 2016,Boulevard,10
+Brazil,Feb 2016,Boulevard,5
+Brazil,Mar 2016,Boulevard,9
+Brazil,Jan 2016,KingTwin,9
+Brazil,Feb 2016,KingTwin,3
+Brazil,Mar 2016,KingTwin,1
+Brazil,Jan 2016,MegaTwin,80
+Brazil,Feb 2016,MegaTwin,78
+Brazil,Mar 2016,MegaTwin,77
+Brazil,Jan 2016,ST900,8
+Brazil,Feb 2016,ST900,2
+Brazil,Mar 2016,ST900,0
+Brazil,Jan 2016,ST1200,58
+Brazil,Feb 2016,ST1200,60
+Brazil,Mar 2016,ST1200,53
+Brazil,Jan 2016,ST1200R,15
+Brazil,Feb 2016,ST1200R,14
+Brazil,Mar 2016,ST1200R,18
+Brazil,Jan 2016,Bandit 900,70
+Brazil,Feb 2016,Bandit 900,11
+Brazil,Mar 2016,Bandit 900,64
+Brazil,Jan 2016,Bandit 1200,26
+Brazil,Feb 2016,Bandit 1200,57
+Brazil,Mar 2016,Bandit 1200,13
+Brazil,Jan 2016,Bandit 1200S,25
+Brazil,Feb 2016,Bandit 1200S,36
+Brazil,Mar 2016,Bandit 1200S,34
+Brazil,Jan 2016,Enduro 350,10
+Brazil,Feb 2016,Enduro 350,3
+Brazil,Mar 2016,Enduro 350,0
+Brazil,Jan 2016,Enduro 450,27
+Brazil,Feb 2016,Enduro 450,7
+Brazil,Mar 2016,Enduro 450,23
+Brazil,Jan 2016,Enduro 550,25
+Brazil,Feb 2016,Enduro 550,18
+Brazil,Mar 2016,Enduro 550,18
+Brazil,Jan 2016,CRX500,29
+Brazil,Feb 2016,CRX500,7
+Brazil,Mar 2016,CRX500,1
+Brazil,Jan 2016,CRS550,109
+Brazil,Feb 2016,CRS550,98
+Brazil,Mar 2016,CRS550,71
+Brazil,Jan 2016,CRX600,42
+Brazil,Feb 2016,CRX600,110
+Brazil,Mar 2016,CRX600,105
+Brazil,Jan 2016,CRX650,100
+Brazil,Feb 2016,CRX650,107
+Brazil,Mar 2016,CRX650,105
+Argentina,Jan 2016,200S,26
+Argentina,Feb 2016,200S,7
+Argentina,Mar 2016,200S,61
+Argentina,Jan 2016,300S,46
+Argentina,Feb 2016,300S,41
+Argentina,Mar 2016,300S,44
+Argentina,Jan 2016,600S,76
+Argentina,Feb 2016,600S,79
+Argentina,Mar 2016,600S,77
+Argentina,Jan 2016,626S,110
+Argentina,Feb 2016,626S,102
+Argentina,Mar 2016,626S,106
+Argentina,Jan 2016,676S,91
+Argentina,Feb 2016,676S,94
+Argentina,Mar 2016,676S,97
+Argentina,Jan 2016,676RS,85
+Argentina,Feb 2016,676RS,92
+Argentina,Mar 2016,676RS,90
+Argentina,Jan 2016,900S,35
+Argentina,Feb 2016,900S,34
+Argentina,Mar 2016,900S,35
+Argentina,Jan 2016,929S,11
+Argentina,Feb 2016,929S,6
+Argentina,Mar 2016,929S,7
+Argentina,Jan 2016,996S,96
+Argentina,Feb 2016,996S,95
+Argentina,Mar 2016,996S,105
+Argentina,Jan 2016,996RS,48
+Argentina,Feb 2016,996RS,54
+Argentina,Mar 2016,996RS,55
+Argentina,Jan 2016,RoadStar,42
+Argentina,Feb 2016,RoadStar,72
+Argentina,Mar 2016,RoadStar,105
+Argentina,Jan 2016,RoadLiner,62
+Argentina,Feb 2016,RoadLiner,61
+Argentina,Mar 2016,RoadLiner,63
+Argentina,Jan 2016,Victory,12
+Argentina,Feb 2016,Victory,2
+Argentina,Mar 2016,Victory,0
+Argentina,Jan 2016,Boulevard,37
+Argentina,Feb 2016,Boulevard,37
+Argentina,Mar 2016,Boulevard,39
+Argentina,Jan 2016,KingTwin,33
+Argentina,Feb 2016,KingTwin,42
+Argentina,Mar 2016,KingTwin,92
+Argentina,Jan 2016,MegaTwin,88
+Argentina,Feb 2016,MegaTwin,89
+Argentina,Mar 2016,MegaTwin,97
+Argentina,Jan 2016,ST900,50
+Argentina,Feb 2016,ST900,8
+Argentina,Mar 2016,ST900,40
+Argentina,Jan 2016,ST1200,86
+Argentina,Feb 2016,ST1200,91
+Argentina,Mar 2016,ST1200,91
+Argentina,Jan 2016,ST1200R,47
+Argentina,Feb 2016,ST1200R,47
+Argentina,Mar 2016,ST1200R,54
+Argentina,Jan 2016,Bandit 900,26
+Argentina,Feb 2016,Bandit 900,8
+Argentina,Mar 2016,Bandit 900,1
+Argentina,Jan 2016,Bandit 1200,33
+Argentina,Feb 2016,Bandit 1200,19
+Argentina,Mar 2016,Bandit 1200,93
+Argentina,Jan 2016,Bandit 1200S,90
+Argentina,Feb 2016,Bandit 1200S,96
+Argentina,Mar 2016,Bandit 1200S,99
+Argentina,Jan 2016,Enduro 350,58
+Argentina,Feb 2016,Enduro 350,7
+Argentina,Mar 2016,Enduro 350,32
+Argentina,Jan 2016,Enduro 450,7
+Argentina,Feb 2016,Enduro 450,2
+Argentina,Mar 2016,Enduro 450,0
+Argentina,Jan 2016,Enduro 550,56
+Argentina,Feb 2016,Enduro 550,58
+Argentina,Mar 2016,Enduro 550,56
+Argentina,Jan 2016,CRX500,35
+Argentina,Feb 2016,CRX500,8
+Argentina,Mar 2016,CRX500,2
+Argentina,Jan 2016,CRS550,44
+Argentina,Feb 2016,CRS550,95
+Argentina,Mar 2016,CRS550,105
+Argentina,Jan 2016,CRX600,19
+Argentina,Feb 2016,CRX600,4
+Argentina,Mar 2016,CRX600,42
+Argentina,Jan 2016,CRX650,62
+Argentina,Feb 2016,CRX650,58
+Argentina,Mar 2016,CRX650,63
+UK,Jan 2016,200S,29
+UK,Feb 2016,200S,58
+UK,Mar 2016,200S,45
+UK,Jan 2016,300S,27
+UK,Feb 2016,300S,30
+UK,Mar 2016,300S,30
+UK,Jan 2016,600S,26
+UK,Feb 2016,600S,30
+UK,Mar 2016,600S,30
+UK,Jan 2016,626S,31
+UK,Feb 2016,626S,29
+UK,Mar 2016,626S,28
+UK,Jan 2016,676S,28
+UK,Feb 2016,676S,27
+UK,Mar 2016,676S,31
+UK,Jan 2016,676RS,24
+UK,Feb 2016,676RS,32
+UK,Mar 2016,676RS,33
+UK,Jan 2016,900S,115
+UK,Feb 2016,900S,107
+UK,Mar 2016,900S,111
+UK,Jan 2016,929S,53
+UK,Feb 2016,929S,52
+UK,Mar 2016,929S,54
+UK,Jan 2016,996S,47
+UK,Feb 2016,996S,46
+UK,Mar 2016,996S,46
+UK,Jan 2016,996RS,53
+UK,Feb 2016,996RS,63
+UK,Mar 2016,996RS,63
+UK,Jan 2016,RoadStar,14
+UK,Feb 2016,RoadStar,4
+UK,Mar 2016,RoadStar,1
+UK,Jan 2016,RoadLiner,38
+UK,Feb 2016,RoadLiner,44
+UK,Mar 2016,RoadLiner,37
+UK,Jan 2016,Victory,14
+UK,Feb 2016,Victory,4
+UK,Mar 2016,Victory,1
+UK,Jan 2016,Boulevard,38
+UK,Feb 2016,Boulevard,38
+UK,Mar 2016,Boulevard,40
+UK,Jan 2016,KingTwin,32
+UK,Feb 2016,KingTwin,75
+UK,Mar 2016,KingTwin,41
+UK,Jan 2016,MegaTwin,34
+UK,Feb 2016,MegaTwin,38
+UK,Mar 2016,MegaTwin,35
+UK,Jan 2016,ST900,16
+UK,Feb 2016,ST900,5
+UK,Mar 2016,ST900,1
+UK,Jan 2016,ST1200,93
+UK,Feb 2016,ST1200,101
+UK,Mar 2016,ST1200,95
+UK,Jan 2016,ST1200R,108
+UK,Feb 2016,ST1200R,110
+UK,Mar 2016,ST1200R,113
+UK,Jan 2016,Bandit 900,43
+UK,Feb 2016,Bandit 900,11
+UK,Mar 2016,Bandit 900,92
+UK,Jan 2016,Bandit 1200,104
+UK,Feb 2016,Bandit 1200,58
+UK,Mar 2016,Bandit 1200,63
+UK,Jan 2016,Bandit 1200S,69
+UK,Feb 2016,Bandit 1200S,63
+UK,Mar 2016,Bandit 1200S,68
+UK,Jan 2016,Enduro 350,4
+UK,Feb 2016,Enduro 350,2
+UK,Mar 2016,Enduro 350,0
+UK,Jan 2016,Enduro 450,24
+UK,Feb 2016,Enduro 450,6
+UK,Mar 2016,Enduro 450,1
+UK,Jan 2016,Enduro 550,50
+UK,Feb 2016,Enduro 550,52
+UK,Mar 2016,Enduro 550,53
+UK,Jan 2016,CRX500,33
+UK,Feb 2016,CRX500,8
+UK,Mar 2016,CRX500,2
+UK,Jan 2016,CRS550,44
+UK,Feb 2016,CRS550,106
+UK,Mar 2016,CRS550,83
+UK,Jan 2016,CRX600,16
+UK,Feb 2016,CRX600,4
+UK,Mar 2016,CRX600,36
+UK,Jan 2016,CRX650,101
+UK,Feb 2016,CRX650,97
+UK,Mar 2016,CRX650,102
+France,Jan 2016,200S,33
+France,Feb 2016,200S,64
+France,Mar 2016,200S,45
+France,Jan 2016,300S,108
+France,Feb 2016,300S,108
+France,Mar 2016,300S,105
+France,Jan 2016,600S,118
+France,Feb 2016,600S,119
+France,Mar 2016,600S,115
+France,Jan 2016,626S,22
+France,Feb 2016,626S,22
+France,Mar 2016,626S,25
+France,Jan 2016,676S,83
+France,Feb 2016,676S,88
+France,Mar 2016,676S,85
+France,Jan 2016,676RS,35
+France,Feb 2016,676RS,39
+France,Mar 2016,676RS,36
+France,Jan 2016,900S,41
+France,Feb 2016,900S,37
+France,Mar 2016,900S,44
+France,Jan 2016,929S,116
+France,Feb 2016,929S,113
+France,Mar 2016,929S,110
+France,Jan 2016,996S,21
+France,Feb 2016,996S,54
+France,Mar 2016,996S,60
+France,Jan 2016,996RS,25
+France,Feb 2016,996RS,28
+France,Mar 2016,996RS,34
+France,Jan 2016,RoadStar,37
+France,Feb 2016,RoadStar,53
+France,Mar 2016,RoadStar,90
+France,Jan 2016,RoadLiner,53
+France,Feb 2016,RoadLiner,55
+France,Mar 2016,RoadLiner,58
+France,Jan 2016,Victory,19
+France,Feb 2016,Victory,5
+France,Mar 2016,Victory,1
+France,Jan 2016,Boulevard,26
+France,Feb 2016,Boulevard,28
+France,Mar 2016,Boulevard,33
+France,Jan 2016,KingTwin,85
+France,Feb 2016,KingTwin,10
+France,Mar 2016,KingTwin,89
+France,Jan 2016,MegaTwin,89
+France,Feb 2016,MegaTwin,94
+France,Mar 2016,MegaTwin,104
+France,Jan 2016,ST900,26
+France,Feb 2016,ST900,7
+France,Mar 2016,ST900,1
+France,Jan 2016,ST1200,81
+France,Feb 2016,ST1200,81
+France,Mar 2016,ST1200,82
+France,Jan 2016,ST1200R,69
+France,Feb 2016,ST1200R,68
+France,Mar 2016,ST1200R,69
+France,Jan 2016,Bandit 900,40
+France,Feb 2016,Bandit 900,40
+France,Mar 2016,Bandit 900,18
+France,Jan 2016,Bandit 1200,9
+France,Feb 2016,Bandit 1200,2
+France,Mar 2016,Bandit 1200,1
+France,Jan 2016,Bandit 1200S,99
+France,Feb 2016,Bandit 1200S,100
+France,Mar 2016,Bandit 1200S,104
+France,Jan 2016,Enduro 350,95
+France,Feb 2016,Enduro 350,11
+France,Mar 2016,Enduro 350,80
+France,Jan 2016,Enduro 450,28
+France,Feb 2016,Enduro 450,7
+France,Mar 2016,Enduro 450,1
+France,Jan 2016,Enduro 550,40
+France,Feb 2016,Enduro 550,40
+France,Mar 2016,Enduro 550,39
+France,Jan 2016,CRX500,26
+France,Feb 2016,CRX500,6
+France,Mar 2016,CRX500,1
+France,Jan 2016,CRS550,35
+France,Feb 2016,CRS550,68
+France,Mar 2016,CRS550,38
+France,Jan 2016,CRX600,47
+France,Feb 2016,CRX600,22
+France,Mar 2016,CRX600,21
+France,Jan 2016,CRX650,52
+France,Feb 2016,CRX650,55
+France,Mar 2016,CRX650,61
+Germany,Jan 2016,200S,9
+Germany,Feb 2016,200S,3
+Germany,Mar 2016,200S,22
+Germany,Jan 2016,300S,36
+Germany,Feb 2016,300S,45
+Germany,Mar 2016,300S,44
+Germany,Jan 2016,600S,107
+Germany,Feb 2016,600S,113
+Germany,Mar 2016,600S,115
+Germany,Jan 2016,626S,22
+Germany,Feb 2016,626S,27
+Germany,Mar 2016,626S,24
+Germany,Jan 2016,676S,110
+Germany,Feb 2016,676S,122
+Germany,Mar 2016,676S,126
+Germany,Jan 2016,676RS,58
+Germany,Feb 2016,676RS,54
+Germany,Mar 2016,676RS,59
+Germany,Jan 2016,900S,43
+Germany,Feb 2016,900S,35
+Germany,Mar 2016,900S,39
+Germany,Jan 2016,929S,15
+Germany,Feb 2016,929S,21
+Germany,Mar 2016,929S,20
+Germany,Jan 2016,996S,47
+Germany,Feb 2016,996S,4
+Germany,Mar 2016,996S,49
+Germany,Jan 2016,996RS,34
+Germany,Feb 2016,996RS,29
+Germany,Mar 2016,996RS,28
+Germany,Jan 2016,RoadStar,36
+Germany,Feb 2016,RoadStar,81
+Germany,Mar 2016,RoadStar,51
+Germany,Jan 2016,RoadLiner,64
+Germany,Feb 2016,RoadLiner,67
+Germany,Mar 2016,RoadLiner,69
+Germany,Jan 2016,Victory,30
+Germany,Feb 2016,Victory,8
+Germany,Mar 2016,Victory,48
+Germany,Jan 2016,Boulevard,4
+Germany,Feb 2016,Boulevard,12
+Germany,Mar 2016,Boulevard,12
+Germany,Jan 2016,KingTwin,99
+Germany,Feb 2016,KingTwin,12
+Germany,Mar 2016,KingTwin,118
+Germany,Jan 2016,MegaTwin,35
+Germany,Feb 2016,MegaTwin,33
+Germany,Mar 2016,MegaTwin,30
+Germany,Jan 2016,ST900,16
+Germany,Feb 2016,ST900,5
+Germany,Mar 2016,ST900,1
+Germany,Jan 2016,ST1200,24
+Germany,Feb 2016,ST1200,23
+Germany,Mar 2016,ST1200,22
+Germany,Jan 2016,ST1200R,32
+Germany,Feb 2016,ST1200R,27
+Germany,Mar 2016,ST1200R,27
+Germany,Jan 2016,Bandit 900,11
+Germany,Feb 2016,Bandit 900,3
+Germany,Mar 2016,Bandit 900,1
+Germany,Jan 2016,Bandit 1200,34
+Germany,Feb 2016,Bandit 1200,10
+Germany,Mar 2016,Bandit 1200,4
+Germany,Jan 2016,Bandit 1200S,58
+Germany,Feb 2016,Bandit 1200S,59
+Germany,Mar 2016,Bandit 1200S,53
+Germany,Jan 2016,Enduro 350,4
+Germany,Feb 2016,Enduro 350,1
+Germany,Mar 2016,Enduro 350,0
+Germany,Jan 2016,Enduro 450,41
+Germany,Feb 2016,Enduro 450,10
+Germany,Mar 2016,Enduro 450,98
+Germany,Jan 2016,Enduro 550,89
+Germany,Feb 2016,Enduro 550,91
+Germany,Mar 2016,Enduro 550,97
+Germany,Jan 2016,CRX500,24
+Germany,Feb 2016,CRX500,6
+Germany,Mar 2016,CRX500,1
+Germany,Jan 2016,CRS550,33
+Germany,Feb 2016,CRS550,66
+Germany,Mar 2016,CRS550,24
+Germany,Jan 2016,CRX600,7
+Germany,Feb 2016,CRX600,2
+Germany,Mar 2016,CRX600,0
+Germany,Jan 2016,CRX650,37
+Germany,Feb 2016,CRX650,42
+Germany,Mar 2016,CRX650,37
+Spain,Jan 2016,200S,27
+Spain,Feb 2016,200S,49
+Spain,Mar 2016,200S,42
+Spain,Jan 2016,300S,20
+Spain,Feb 2016,300S,18
+Spain,Mar 2016,300S,23
+Spain,Jan 2016,600S,69
+Spain,Feb 2016,600S,73
+Spain,Mar 2016,600S,78
+Spain,Jan 2016,626S,19
+Spain,Feb 2016,626S,21
+Spain,Mar 2016,626S,12
+Spain,Jan 2016,676S,46
+Spain,Feb 2016,676S,45
+Spain,Mar 2016,676S,47
+Spain,Jan 2016,676RS,64
+Spain,Feb 2016,676RS,63
+Spain,Mar 2016,676RS,59
+Spain,Jan 2016,900S,59
+Spain,Feb 2016,900S,61
+Spain,Mar 2016,900S,60
+Spain,Jan 2016,929S,94
+Spain,Feb 2016,929S,99
+Spain,Mar 2016,929S,92
+Spain,Jan 2016,996S,85
+Spain,Feb 2016,996S,73
+Spain,Mar 2016,996S,98
+Spain,Jan 2016,996RS,71
+Spain,Feb 2016,996RS,75
+Spain,Mar 2016,996RS,73
+Spain,Jan 2016,RoadStar,34
+Spain,Feb 2016,RoadStar,8
+Spain,Mar 2016,RoadStar,85
+Spain,Jan 2016,RoadLiner,81
+Spain,Feb 2016,RoadLiner,72
+Spain,Mar 2016,RoadLiner,76
+Spain,Jan 2016,Victory,15
+Spain,Feb 2016,Victory,4
+Spain,Mar 2016,Victory,1
+Spain,Jan 2016,Boulevard,101
+Spain,Feb 2016,Boulevard,95
+Spain,Mar 2016,Boulevard,102
+Spain,Jan 2016,KingTwin,34
+Spain,Feb 2016,KingTwin,95
+Spain,Mar 2016,KingTwin,48
+Spain,Jan 2016,MegaTwin,27
+Spain,Feb 2016,MegaTwin,31
+Spain,Mar 2016,MegaTwin,32
+Spain,Jan 2016,ST900,17
+Spain,Feb 2016,ST900,4
+Spain,Mar 2016,ST900,1
+Spain,Jan 2016,ST1200,95
+Spain,Feb 2016,ST1200,89
+Spain,Mar 2016,ST1200,95
+Spain,Jan 2016,ST1200R,47
+Spain,Feb 2016,ST1200R,54
+Spain,Mar 2016,ST1200R,58
+Spain,Jan 2016,Bandit 900,19
+Spain,Feb 2016,Bandit 900,5
+Spain,Mar 2016,Bandit 900,1
+Spain,Jan 2016,Bandit 1200,43
+Spain,Feb 2016,Bandit 1200,46
+Spain,Mar 2016,Bandit 1200,111
+Spain,Jan 2016,Bandit 1200S,7
+Spain,Feb 2016,Bandit 1200S,11
+Spain,Mar 2016,Bandit 1200S,9
+Spain,Jan 2016,Enduro 350,39
+Spain,Feb 2016,Enduro 350,95
+Spain,Mar 2016,Enduro 350,29
+Spain,Jan 2016,Enduro 450,15
+Spain,Feb 2016,Enduro 450,4
+Spain,Mar 2016,Enduro 450,1
+Spain,Jan 2016,Enduro 550,57
+Spain,Feb 2016,Enduro 550,63
+Spain,Mar 2016,Enduro 550,65
+Spain,Jan 2016,CRX500,22
+Spain,Feb 2016,CRX500,6
+Spain,Mar 2016,CRX500,1
+Spain,Jan 2016,CRS550,26
+Spain,Feb 2016,CRS550,66
+Spain,Mar 2016,CRS550,26
+Spain,Jan 2016,CRX600,20
+Spain,Feb 2016,CRX600,5
+Spain,Mar 2016,CRX600,48
+Spain,Jan 2016,CRX650,98
+Spain,Feb 2016,CRX650,95
+Spain,Mar 2016,CRX650,98
+Italy,Jan 2016,200S,13
+Italy,Feb 2016,200S,3
+Italy,Mar 2016,200S,24
+Italy,Jan 2016,300S,7
+Italy,Feb 2016,300S,9
+Italy,Mar 2016,300S,6
+Italy,Jan 2016,600S,81
+Italy,Feb 2016,600S,83
+Italy,Mar 2016,600S,82
+Italy,Jan 2016,626S,24
+Italy,Feb 2016,626S,25
+Italy,Mar 2016,626S,24
+Italy,Jan 2016,676S,104
+Italy,Feb 2016,676S,115
+Italy,Mar 2016,676S,120
+Italy,Jan 2016,676RS,35
+Italy,Feb 2016,676RS,39
+Italy,Mar 2016,676RS,34
+Italy,Jan 2016,900S,22
+Italy,Feb 2016,900S,24
+Italy,Mar 2016,900S,22
+Italy,Jan 2016,929S,39
+Italy,Feb 2016,929S,45
+Italy,Mar 2016,929S,46
+Italy,Jan 2016,996S,25
+Italy,Feb 2016,996S,14
+Italy,Mar 2016,996S,8
+Italy,Jan 2016,996RS,71
+Italy,Feb 2016,996RS,72
+Italy,Mar 2016,996RS,76
+Italy,Jan 2016,RoadStar,98
+Italy,Feb 2016,RoadStar,11
+Italy,Mar 2016,RoadStar,106
+Italy,Jan 2016,RoadLiner,43
+Italy,Feb 2016,RoadLiner,45
+Italy,Mar 2016,RoadLiner,45
+Italy,Jan 2016,Victory,35
+Italy,Feb 2016,Victory,8
+Italy,Mar 2016,Victory,88
+Italy,Jan 2016,Boulevard,77
+Italy,Feb 2016,Boulevard,83
+Italy,Mar 2016,Boulevard,84
+Italy,Jan 2016,KingTwin,26
+Italy,Feb 2016,KingTwin,41
+Italy,Mar 2016,KingTwin,13
+Italy,Jan 2016,MegaTwin,88
+Italy,Feb 2016,MegaTwin,92
+Italy,Mar 2016,MegaTwin,90
+Italy,Jan 2016,ST900,21
+Italy,Feb 2016,ST900,5
+Italy,Mar 2016,ST900,1
+Italy,Jan 2016,ST1200,64
+Italy,Feb 2016,ST1200,66
+Italy,Mar 2016,ST1200,68
+Italy,Jan 2016,ST1200R,9
+Italy,Feb 2016,ST1200R,7
+Italy,Mar 2016,ST1200R,6
+Italy,Jan 2016,Bandit 900,70
+Italy,Feb 2016,Bandit 900,10
+Italy,Mar 2016,Bandit 900,34
+Italy,Jan 2016,Bandit 1200,14
+Italy,Feb 2016,Bandit 1200,3
+Italy,Mar 2016,Bandit 1200,1
+Italy,Jan 2016,Bandit 1200S,26
+Italy,Feb 2016,Bandit 1200S,24
+Italy,Mar 2016,Bandit 1200S,23
+Italy,Jan 2016,Enduro 350,2
+Italy,Feb 2016,Enduro 350,1
+Italy,Mar 2016,Enduro 350,0
+Italy,Jan 2016,Enduro 450,14
+Italy,Feb 2016,Enduro 450,4
+Italy,Mar 2016,Enduro 450,1
+Italy,Jan 2016,Enduro 550,95
+Italy,Feb 2016,Enduro 550,99
+Italy,Mar 2016,Enduro 550,106
+Italy,Jan 2016,CRX500,42
+Italy,Feb 2016,CRX500,11
+Italy,Mar 2016,CRX500,2
+Italy,Jan 2016,CRS550,68
+Italy,Feb 2016,CRS550,6
+Italy,Mar 2016,CRS550,37
+Italy,Jan 2016,CRX600,28
+Italy,Feb 2016,CRX600,42
+Italy,Mar 2016,CRX600,73
+Italy,Jan 2016,CRX650,69
+Italy,Feb 2016,CRX650,71
+Italy,Mar 2016,CRX650,69
+China,Jan 2016,200S,35
+China,Feb 2016,200S,15
+China,Mar 2016,200S,87
+China,Jan 2016,300S,33
+China,Feb 2016,300S,37
+China,Mar 2016,300S,29
+China,Jan 2016,600S,99
+China,Feb 2016,600S,102
+China,Mar 2016,600S,104
+China,Jan 2016,626S,79
+China,Feb 2016,626S,71
+China,Mar 2016,626S,78
+China,Jan 2016,676S,58
+China,Feb 2016,676S,59
+China,Mar 2016,676S,68
+China,Jan 2016,676RS,36
+China,Feb 2016,676RS,37
+China,Mar 2016,676RS,39
+China,Jan 2016,900S,13
+China,Feb 2016,900S,12
+China,Mar 2016,900S,16
+China,Jan 2016,929S,67
+China,Feb 2016,929S,67
+China,Mar 2016,929S,71
+China,Jan 2016,996S,98
+China,Feb 2016,996S,101
+China,Mar 2016,996S,95
+China,Jan 2016,996RS,5
+China,Feb 2016,996RS,11
+China,Mar 2016,996RS,3
+China,Jan 2016,RoadStar,14
+China,Feb 2016,RoadStar,4
+China,Mar 2016,RoadStar,1
+China,Jan 2016,RoadLiner,64
+China,Feb 2016,RoadLiner,60
+China,Mar 2016,RoadLiner,64
+China,Jan 2016,Victory,32
+China,Feb 2016,Victory,48
+China,Mar 2016,Victory,22
+China,Jan 2016,Boulevard,100
+China,Feb 2016,Boulevard,93
+China,Mar 2016,Boulevard,98
+China,Jan 2016,KingTwin,31
+China,Feb 2016,KingTwin,68
+China,Mar 2016,KingTwin,34
+China,Jan 2016,MegaTwin,0
+China,Feb 2016,MegaTwin,9
+China,Mar 2016,MegaTwin,7
+China,Jan 2016,ST900,22
+China,Feb 2016,ST900,5
+China,Mar 2016,ST900,1
+China,Jan 2016,ST1200,99
+China,Feb 2016,ST1200,100
+China,Mar 2016,ST1200,100
+China,Jan 2016,ST1200R,86
+China,Feb 2016,ST1200R,88
+China,Mar 2016,ST1200R,85
+China,Jan 2016,Bandit 900,22
+China,Feb 2016,Bandit 900,5
+China,Mar 2016,Bandit 900,1
+China,Jan 2016,Bandit 1200,80
+China,Feb 2016,Bandit 1200,44
+China,Mar 2016,Bandit 1200,43
+China,Jan 2016,Bandit 1200S,80
+China,Feb 2016,Bandit 1200S,89
+China,Mar 2016,Bandit 1200S,84
+China,Jan 2016,Enduro 350,38
+China,Feb 2016,Enduro 350,80
+China,Mar 2016,Enduro 350,38
+China,Jan 2016,Enduro 450,21
+China,Feb 2016,Enduro 450,6
+China,Mar 2016,Enduro 450,1
+China,Jan 2016,Enduro 550,103
+China,Feb 2016,Enduro 550,103
+China,Mar 2016,Enduro 550,109
+China,Jan 2016,CRX500,20
+China,Feb 2016,CRX500,4
+China,Mar 2016,CRX500,1
+China,Jan 2016,CRS550,9
+China,Feb 2016,CRS550,2
+China,Mar 2016,CRS550,1
+China,Jan 2016,CRX600,44
+China,Feb 2016,CRX600,76
+China,Mar 2016,CRX600,47
+China,Jan 2016,CRX650,41
+China,Feb 2016,CRX650,41
+China,Mar 2016,CRX650,50
+Japan,Jan 2016,200S,26
+Japan,Feb 2016,200S,6
+Japan,Mar 2016,200S,58
+Japan,Jan 2016,300S,11
+Japan,Feb 2016,300S,7
+Japan,Mar 2016,300S,12
+Japan,Jan 2016,600S,20
+Japan,Feb 2016,600S,20
+Japan,Mar 2016,600S,16
+Japan,Jan 2016,626S,83
+Japan,Feb 2016,626S,85
+Japan,Mar 2016,626S,86
+Japan,Jan 2016,676S,47
+Japan,Feb 2016,676S,56
+Japan,Mar 2016,676S,59
+Japan,Jan 2016,676RS,72
+Japan,Feb 2016,676RS,68
+Japan,Mar 2016,676RS,70
+Japan,Jan 2016,900S,39
+Japan,Feb 2016,900S,38
+Japan,Mar 2016,900S,37
+Japan,Jan 2016,929S,22
+Japan,Feb 2016,929S,23
+Japan,Mar 2016,929S,23
+Japan,Jan 2016,996S,37
+Japan,Feb 2016,996S,51
+Japan,Mar 2016,996S,34
+Japan,Jan 2016,996RS,24
+Japan,Feb 2016,996RS,23
+Japan,Mar 2016,996RS,23
+Japan,Jan 2016,RoadStar,65
+Japan,Feb 2016,RoadStar,32
+Japan,Mar 2016,RoadStar,26
+Japan,Jan 2016,RoadLiner,28
+Japan,Feb 2016,RoadLiner,24
+Japan,Mar 2016,RoadLiner,22
+Japan,Jan 2016,Victory,5
+Japan,Feb 2016,Victory,1
+Japan,Mar 2016,Victory,0
+Japan,Jan 2016,Boulevard,82
+Japan,Feb 2016,Boulevard,81
+Japan,Mar 2016,Boulevard,74
+Japan,Jan 2016,KingTwin,18
+Japan,Feb 2016,KingTwin,9
+Japan,Mar 2016,KingTwin,1
+Japan,Jan 2016,MegaTwin,57
+Japan,Feb 2016,MegaTwin,61
+Japan,Mar 2016,MegaTwin,56
+Japan,Jan 2016,ST900,18
+Japan,Feb 2016,ST900,5
+Japan,Mar 2016,ST900,1
+Japan,Jan 2016,ST1200,98
+Japan,Feb 2016,ST1200,99
+Japan,Mar 2016,ST1200,107
+Japan,Jan 2016,ST1200R,53
+Japan,Feb 2016,ST1200R,47
+Japan,Mar 2016,ST1200R,52
+Japan,Jan 2016,Bandit 900,21
+Japan,Feb 2016,Bandit 900,6
+Japan,Mar 2016,Bandit 900,1
+Japan,Jan 2016,Bandit 1200,13
+Japan,Feb 2016,Bandit 1200,3
+Japan,Mar 2016,Bandit 1200,1
+Japan,Jan 2016,Bandit 1200S,89
+Japan,Feb 2016,Bandit 1200S,90
+Japan,Mar 2016,Bandit 1200S,94
+Japan,Jan 2016,Enduro 350,32
+Japan,Feb 2016,Enduro 350,37
+Japan,Mar 2016,Enduro 350,21
+Japan,Jan 2016,Enduro 450,37
+Japan,Feb 2016,Enduro 450,7
+Japan,Mar 2016,Enduro 450,1
+Japan,Jan 2016,Enduro 550,84
+Japan,Feb 2016,Enduro 550,86
+Japan,Mar 2016,Enduro 550,85
+Japan,Jan 2016,CRX500,35
+Japan,Feb 2016,CRX500,9
+Japan,Mar 2016,CRX500,2
+Japan,Jan 2016,CRS550,9
+Japan,Feb 2016,CRS550,2
+Japan,Mar 2016,CRS550,0
+Japan,Jan 2016,CRX600,67
+Japan,Feb 2016,CRX600,8
+Japan,Mar 2016,CRX600,74
+Japan,Jan 2016,CRX650,85
+Japan,Feb 2016,CRX650,92
+Japan,Mar 2016,CRX650,93

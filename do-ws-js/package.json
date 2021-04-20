@@ -1,0 +1,50 @@
+{
+  "_args": [
+    [
+      "do-ws-js@0.1.145",
+      "/Users/rachidi/Desktop/DO_WS_PA_DEMO/dowspacpy"
+    ]
+  ],
+  "_from": "do-ws-js@0.1.145",
+  "_id": "do-ws-js@0.1.145",
+  "_inBundle": false,
+  "_integrity": "sha512-4d8/DuVhbvfiWFaU7xXbHWFNFGkQlPRNhmHdy4ijYggRmfYeuyL8oXT0rDrsdPf8wygS0L7f3PVlQAFuUNhvGA==",
+  "_location": "/do-ws-js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "do-ws-js@0.1.145",
+    "name": "do-ws-js",
+    "escapedName": "do-ws-js",
+    "rawSpec": "0.1.145",
+    "saveSpec": null,
+    "fetchSpec": "0.1.145"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/do-ws-js/-/do-ws-js-0.1.145.tgz",
+  "_spec": "0.1.145",
+  "_where": "/Users/rachidi/Desktop/DO_WS_PA_DEMO/dowspacpy",
+  "author": {
+    "name": "Alain Chabrier",
+    "email": "alain.chabrier@ibm.com"
+  },
+  "bugs": {
+    "url": "https://github.com/IBMDecisionOptimization/do-ws-js/issues"
+  },
+  "description": "Javascript extensions library for Decision Optimization for Watson Studio",
+  "homepage": "https://github.com/IBMDecisionOptimization/do-ws-js#readme",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "main": "index.js",
+  "name": "do-ws-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBMDecisionOptimization/do-ws-js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.145"
+}

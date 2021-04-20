@@ -1,0 +1,27 @@
+{
+  "name": "do-ws-pa",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "copyfiles -f node_modules/do-ws-js/public/*.js public/do-ws-js && copyfiles -f node_modules/do-ws-js/public/stylesheets/*.css public/do-ws-js/stylesheets && copyfiles -f node_modules/do-ws-js/public/images/*.png public/do-ws-js/images",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "x",
+    "cfenv": "1.0.x",
+    "copyfiles": "^2.1.0",
+    "do-ws-js": ">=0.1.145",
+    "express": "4.15.x",
+    "gridstack": "*",
+    "multer": "x",
+    "nodemon": "^2.0.7",
+    "request": "2.83.x",
+    "sync-request": "x",
+    "tar": "*"
+  },
+  "repository": {},
+  "engines": {
+    "node": "6.x"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,17 @@
+{
+  "Sales": {
+    "category": "input"
+  },
+  "Outcome": {
+    "category": "output"
+  },
+  "FirmSales": {
+    "category": "input"
+  },
+  "executed_sales": {
+    "category": "output"
+  },
+  "Outcome2": {
+    "category": "output"
+  }
+}
